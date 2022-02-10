@@ -1,0 +1,26 @@
+/* ---------- GENERAL ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: 1color;
+}
+:root {
+    --1Color: #964b00;
+    --2Color: #000000;
+    --textColor: #ffffff;
+}
+/* BODY */
+body {
+    background-color: var(--1Color);
+}
+/* HEADER */
+header {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    clip-path: polygon(50% 6%, 50% 19%, 39% 48%, 21% 94%, 6% 94%, 6% 6%);
+}
